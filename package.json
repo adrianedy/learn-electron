@@ -1,0 +1,14 @@
+{
+  "name": "learn-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electron .",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^8.0.2"
+  }
+}
