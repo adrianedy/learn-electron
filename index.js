@@ -58,6 +58,11 @@ const createWindowCreator = () => {
     })
 }
 
+
+ipcMain.on('appointment:create', (event, appointment) => {
+    console.log(appointment)
+});
+
 const menuTemplate = [
     {
         label: 'File',
